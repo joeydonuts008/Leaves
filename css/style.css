@@ -127,7 +127,6 @@ transform: translate(-20px) rotate(45deg)
 }
 .set3
 {
-    transform: scale(0.8) rotatex(180deg);
     filter: blur(4px);
 }
 
