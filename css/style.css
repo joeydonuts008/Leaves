@@ -39,52 +39,49 @@ section .set div {
 
 section .set div:nth-child(1)
 {
-    left: 10%;
-    animation: animate 10s linear infinite;
-    animation-delay: -5s;
+    left: 20%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
 }
 section .set div:nth-child(2)
 {
-    left: 20%;
-    animation: animate 12s linear infinite;
-    animation-delay: 7s;
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s;
 }
 section .set div:nth-child(3)
 {
-    left: 30%;
-    animation: animate 14s linear infinite;
+    left: 70%;
+    animation: animate 20s linear infinite;
     animation-delay: 0s;
 }
 
 section .set div:nth-child(4)
 {
-    left: 40%;
-    animation: animate 16s linear infinite;
-    animation-delay: -9s;
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
 }
 section .set div:nth-child(5)
 {
-    left: 50%;
+    left: 85%;
     animation: animate 18s linear infinite;
-    animation-delay: 12s;
+    animation-delay: -10s;
 }
 section .set div:nth-child(6)
 {
-    left: 60%;
-    animation: animate 20s linear infinite;
-    animation-delay: 3s;
+    left: 0%;
+    animation: animate 12s linear infinite;
 }
 section .set div:nth-child(7)
 {
-    left: 70%;
-    animation: animate 22s linear infinite;
-    animation-delay: 6s;
+    left: 15%;
+    animation: animate 14s linear infinite;
 }
 section .set div:nth-child(8)
 {
-    left: 80%;
-    animation: animate 24s linear infinite;
-    animation-delay:11s;
+    left: 60%;
+    animation: animate 15s linear infinite;
 }
 
 @keyframes animate 
@@ -127,6 +124,7 @@ transform: translate(-20px) rotate(45deg)
 }
 .set3
 {
+    transform: scale(0.8) rotateX(180deg);
     filter: blur(4px);
 }
 
